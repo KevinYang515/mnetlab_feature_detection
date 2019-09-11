@@ -19,7 +19,6 @@ from mrcnn.config import Config
 from mrcnn import utils
 import mrcnn.model as modellib
 from mrcnn import visualize
-COCO_WEIGHTS_PATH = 'mask_rcnn_coco.h5'
 
 class FashionConfig(Config):
     NAME = "fashion"
